@@ -1,0 +1,57 @@
+main{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.main__title{
+    color: rgb(53, 66, 240);
+}
+
+.main__form{
+    display: flex;
+    flex-direction: column;
+
+}
+.main__imput{
+    border-radius: 5px;
+    height: 30px;
+    font-size: 20px;
+
+}
+
+.main__btn{
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.main_clue{
+ border: 1px solid cornflowerblue;
+}
+
+.main__try{
+    border: 1px solid cornflowerblue;
+}
+
+.reset-btn{
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(237, 100, 196);
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.hidden{
+    display: none;
+}
+
+.off{
+    background-color: rgb(134, 144, 146);
+}

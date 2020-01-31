@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Evaluación intermedia 2</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main class="main">
+        <h1 class="main__title">Adivina el número</h1>
+        <label class="main__lebel" for="imputNumber">Introduce aquí tu número</label>
+        <form  id="mainForm" class="main__form" action="" method="POST">
+            <input class="main__imput" type="text" id="imputNumber" name="number">
+            <button class="main__btn" id="btn" type="button">Prueba</button>
+            <button type="button" id="resetButton" class="reset-btn hidden">¡Juega otra vez!</button>
+        </form>
+        <p class="main_clue">Pista: <span id="clue"></span></p>
+        <p class="main__try">Número de intentos: <span id="numberTry"></span></p>
+    </main>
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
